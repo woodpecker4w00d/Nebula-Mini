@@ -53,8 +53,8 @@ javascript:(function() {
                 s.onload = function() { console.log("HEHEHHE"); };
                 document.body.appendChild(s);
             }},
-            { name: "Services", action: function() { alert('Services section!'); }},
-            { name: "Contact", action: function() { alert('Contact section!'); }}
+            { name: "Button numero 1", action: function() { alert('Button no done'); }},
+            { name: "Best Button", action: function() { alert('Communism=Good'); }}
         ];
 
         buttons.forEach(({ name, action }) => {
